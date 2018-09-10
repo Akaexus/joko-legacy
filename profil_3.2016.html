@@ -1,0 +1,314 @@
+<style type='text/css'>
+  /************************************************************************/
+
+  /* Profil CSS - By Joko - 0003/2016                                     */
+
+  /* EDIT CSS - By V3RSO                                                  */
+
+  /************************************************************************/
+
+  html,
+  body {
+    background: #111212;
+    color: #E6E6E6;
+    font-family: 'open sans', serif;
+  }
+
+  .ipsType_pagetitle,
+  .ipsType_subtitle {
+    color: #E6E6E6;
+    font-family: 'open sans', serif;
+  }
+
+  #footer_utilities,
+  .breadcrumb,
+  #ipsDebug_footer {
+    display: none;
+  }
+
+  #content {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #profile_background {
+    background: transparent;
+  }
+
+  #user_latest_status {
+    background: transparent;
+  }
+
+  /* Info */
+
+  #profile_panes_wrap:hover .ipsList_data:hover .row_data:hover {
+    color: #99CC00;
+  }
+
+  /* Nick */
+
+  .ipsType_pagetitle {
+    font-size: 0px;
+    height: 45px;
+    width: 145px;
+    color: rgba(0, 0, 0, 0);
+    background: url('http://i.imgur.com/INQfGHq.png') no-repeat scroll 9px center transparent;
+    text-shadow: none;
+    transition: All 1s ease;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  }
+
+  .ipsType_pagetitle:hover {
+    transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  }
+
+  /* tabelka */
+
+  .ipsLayout .ipsLayout_right:before {
+    content: "Supreme";
+    float: none;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    background: #99CC00;
+    color: #000;
+  }
+
+  /* Tabelka pod avatarem */
+
+  .photo_holder:after {
+    content: "Mafioza";
+    margin: 0 0 5px 0;
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 5px;
+    font-size: 9px;
+    background: #99CC00;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* Ikony przy info */
+
+  #profile_tabs li.active a:before {
+    background-image: url("icon.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -5px;
+    margin-left: 0;
+    margin-right: 8px;
+    margin-top: -6px;
+    width: 16px;
+  }
+
+  #profile_tabs li[id$="info"] a:before {
+    background-image: url("http://i.imgur.com/7pElX1u.png");
+  }
+
+  #profile_tabs li[id$="status"] a:before {
+    background-image: url("http://i.imgur.com/q4kYYX8.png");
+  }
+
+  #profile_tabs li[id$="mrp"] a:before {
+    background-image: url("http://i.imgur.com/kFjuGxp.png");
+  }
+
+  #profile_tabs li[id$="reputation"] a:before {
+    background-image: url("http://i.imgur.com/ppqnlg8.png");
+  }
+
+  #profile_tabs li[id$="friends"] a:before {
+    background-image: url("http://i.imgur.com/rAu7c7w.png");
+  }
+
+  #profile_tabs li[id$="topics"] a:before {
+    background-image: url("http://i.imgur.com/JchOL70.png");
+  }
+
+  #profile_tabs li[id$="posts"] a:before {
+    background-image: url("http://i.imgur.com/xXmPdGK.png");
+  }
+
+  #community_app_menu>li>a {
+    color: #fff;
+    background: rrgba(143, 38, 161, 0);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.69);
+    font-family: ;
+  }
+
+  .ipsVerticalTabbed_tabs li {
+    background: transparent;
+    color: #808080;
+    border-bottom: 0px solid transparent;
+  }
+
+  .ipsVerticalTabbed_tabs>ul {
+    width: 149px !important;
+    margin-top: 15px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+
+  .ipsBadge,
+  #profile_panes_wrap .reputation {
+    background: #99CC00;
+    color: #111212;
+    border-radius: 0px;
+  }
+
+  .general_box h3,
+  .bar,
+  .ipsSideBlock h3,
+  .header,
+  .popupInner h3,
+  .post_block h3 {
+
+    padding: 7px 9px;
+    border: none;
+    color: #E6E6E6;
+    margin-bottom: 7px;
+    background: #222426;
+    font-family: 'open sans', serif;
+  }
+
+  #profile_panes_wrap,
+  #profile_content_main {
+    background: transparent;
+    border: 1px solid transparent;
+    padding: 10px;
+  }
+
+  .general_box,
+  .ipsVerticalTabbed_tabs li.active a,
+  .popupInner,
+  .maintitle,
+  .post_block {
+
+    background: #222426;
+    border-left: 4px solid #99CC00;
+    border-right: none;
+    color: #E6E6E6;
+  }
+
+  #branding {
+    background: #222426;
+  }
+
+  a {
+    color: #E6E6E6;
+  }
+
+  a:hover {
+    color: #99CC00;
+  }
+
+  #user_latest_status>div {
+
+    border-radius: 0px;
+    background: #222426;
+    border-left: 4px solid #99CC00;
+    color: #E6E6E6;
+  }
+
+  .ipsButton_secondary,
+  .bbc_spoiler_show,
+  .user_controls li a,
+  .topic_buttons li.important a,
+  .topic_buttons li.important span,
+  .ipsButton .important,
+  .topic_buttons li a,
+  .topic_buttons li span,
+  .ipsButton {
+
+    border-radius: 0px;
+    background: #222426;
+    border-left: 4px solid #99CC00;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    color: #E6E6E6;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  #search_options {
+    color: #222426;
+    background: transparent;
+  }
+
+  #search .submit_input {
+    background: #99CC00 url(http://mrucznik-rp.pl/public/style_images/mrp4_1/search_icon.png) no-repeat 50%;
+    border: 1px solid #99CC00;
+    border-radius: 0px;
+  }
+
+  #search_wrap {
+    border-radius: 0px;
+  }
+
+  .ipsUserPhoto {
+    padding: 1px;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .ipsHeaderMenu {
+    border-radius: 0px;
+    background: #222426;
+    border-left: 4px solid #99CC00;
+    color: #E6E6E6;
+    text-shadow: none;
+  }
+
+  .unread {
+    background: transparent;
+  }
+
+  #user_link_menucontent #links li {
+    text-shadow: none;
+  }
+
+  .row1,
+  .post_block.row1 {
+    background-color: #151515;
+  }
+
+  .row2,
+  .post_block.row2 {
+    background-color: #000;
+  }
+
+  .status_update {
+    color: #fff;
+    padding: 15px 12px;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+
+  .post_body .post {
+    color: #E6E6E6;
+  }
+
+  .ipsVerticalTabbed_tabs li a:hover {
+    background: #151515;
+    color: #E6E6E6;
+  }
+</style>
